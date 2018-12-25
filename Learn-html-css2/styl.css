@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 1.5;
+}
+#navbar{
+    position: fixed;
+    float: left;
+    width: 23%;
+    height: 100%;
+    border-right: solid rgba(0,22,22,0.4);
+}
+header{
+    font-size: 27px;
+    font-weight: 300;
+    color: black;
+    padding: 10px;
+}
+#navbar header{ 
+    text-align: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: #4d4e53;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 88%;
+}
+#main-doc{
+    float: right;
+    width: 75%;
+    margin-left: calc(23% + 10px);
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+article{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* đoạn code trên để sử dụng cho html tag code ko có tag pre
+code{
+    text-align: left;
+    background-color: #f7f7f7;
+    line-height: 2em;
+    white-space: pre;
+    border-radius: 2px; 
+    position: relative;
+    display: block;
+    margin-left: 15px;
+    padding: 15px;
+}
+*/
+pre code {
+    background-color: #f7f7f7;
+    display: block;
+    padding: 20px;
+    line-height: 2;
+}
+@media screen and (max-width: 900px){
+    #navbar{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    #main-doc{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}

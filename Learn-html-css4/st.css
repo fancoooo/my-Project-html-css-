@@ -1,0 +1,71 @@
+*{
+    font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    margin: 0;
+    padding: 0;
+    color: #384047;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    background: #464141;
+    padding: 15px;
+    color: white;
+}
+.header h3{
+    margin : 20px auto 7px auto;
+}
+.header p{
+    margin-bottom: 25px; 
+}
+.hr{
+    border: 2px solid black;
+    margin-bottom: 4px !important;
+}
+hr{
+    width: 50%;
+    margin: auto;
+}
+.container{
+    margin: auto;
+    width: 50%;
+}
+.container h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 25px; 
+}
+section {
+    font-size: 20px;
+    display: block;
+    margin: 25px 0;
+}
+section label{
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+}
+section input{
+    width: 70%;
+    padding: 12px;
+    display: inline-block;
+    background-color: #dedede;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+section input:hover{
+    border: none;
+}
+input::placeholder{
+    text-align: right;
+}
+input[type="submit"]{
+    display: block;
+    padding: 15px 40px;
+    background-color: #384047;
+    color: #ccc;
+    margin: auto; 
+    font-size: 18px;
+}
+
