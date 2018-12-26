@@ -16,7 +16,6 @@ window.onload = function(){
     var i = 0;
     const btn = document.querySelector('button');
     const project = document.getElementById('projects');
-    console.log(project);
     function createContent(content,m) {
         const div = document.createElement('div');
         div.classList.add('big');
