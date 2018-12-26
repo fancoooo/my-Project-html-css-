@@ -88,10 +88,8 @@ img{
 .big{
     margin-bottom: 100px;
 }
-#projects .big:nth-child(3){
-    display: none;
-}
-button{
+
+.btn{
     border: 2px solid lightblue;
     padding: 10px 60px;
     color: #008080;
@@ -101,9 +99,11 @@ button{
     font-size: 17px;
     font-weight: bold;
     margin-bottom: 70px;
+    display: block;
 }
-button:hover{
+.btn:hover{
     background-color: aquamarine;
+    cursor: pointer;
 }
 #profile{
     background-color: #C8F7C5;
