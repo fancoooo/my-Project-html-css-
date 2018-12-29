@@ -1,0 +1,31 @@
+.ano{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.dichdi{
+    animation: dichdii 2s forwards;
+}
+
+.dichve{
+    animation: dichvee 2s forwards;
+}
+
+@keyframes dichdii{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+
+@keyframes dichvee{
+    100%{
+        transform: translateX(0);
+    }
+    0%{
+        transform: translateX(200px);
+    }
+}

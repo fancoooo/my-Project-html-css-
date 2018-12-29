@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e9ebee;
+}
+
+.xanh {
+    background: #365899;
+    height: 40px;
+}
+
+.phantu {
+    position: relative;
+    float: right;
+    width: 200px;
+    left: -200px;
+    display: initial
+}
+
+.tamgiac {
+    font-size: 19px;
+    line-height: 37px;
+    cursor: pointer;
+}
+
+.danhsach {
+    position: absolute;
+    width: 200px;
+    right: 173px;
+    top: 43px;
+    display: none;
+    transition: 0.5s;
+}
+
+.danhsach:before {
+    content: "";
+    border: 8px solid #4c4c3200;
+    position: absolute;
+    top: -17px;
+    right: 13px;
+    border-bottom-color: white;
+}
