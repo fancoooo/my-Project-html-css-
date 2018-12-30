@@ -2,47 +2,51 @@
     padding: 0;
     margin: 0;
 }
-* {
-    padding: 0;
-    margin: 0;
-}
+
 body{
     background-color: #e9ebee;
 }
-
 .xanh {
-    background: #365899;
-    height: 40px;
+    display: flex;
+    background-color: #365899;
+    height: 49px;
 }
 
 .phantu {
     position: relative;
-    float: right;
-    width: 200px;
-    left: -200px;
-    display: initial
+    left: 786px;
+    padding: 15px;
 }
 
-.tamgiac {
-    font-size: 19px;
-    line-height: 37px;
+.icon {
+    line-height: 6px;
+    font-size: 21px;
     cursor: pointer;
 }
 
 .danhsach {
     position: absolute;
     width: 200px;
-    right: 173px;
-    top: 43px;
-    display: none;
-    transition: 0.5s;
+    top: 49px;
+    right: -9px;
+    opacity: 0;
 }
 
-.danhsach:before {
-    content: "";
-    border: 8px solid #4c4c3200;
+.danhsach:after {
     position: absolute;
-    top: -17px;
-    right: 13px;
+    content: "";
+    top: -16px;
+    border: 8px solid transparent;
     border-bottom-color: white;
+    right: 21px;
+}
+
+.list-group-item{
+    border-top: none !important;
+}
+.an{
+    opacity: 1;
+}
+.mautrang{
+    color: white;
 }
