@@ -46,7 +46,9 @@ body{
 }
 .an{
     opacity: 1;
+    transition: 0.5s;
 }
 .mautrang{
     color: white;
+    transition: 0.5s;
 }
