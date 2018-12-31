@@ -9,4 +9,10 @@ window.onload = () => {
         btn.classList.toggle('but');
         den.classList.toggle('hien');
     });
+    den.onclick = function(){
+        list.classList.toggle('push');
+        list.classList.toggle('lis');
+        btn.classList.toggle('but');
+        den.classList.toggle('hien');
+    }
 }
